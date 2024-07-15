@@ -23,9 +23,7 @@ public class NumberGame{
         if (inputNum < this.num){
             return "This number is too low";
         }
-        else{
-            return "This number is too high";
-        }
+        return "This number is too high";
     }
     public Boolean playAgain(int answer){
         Random random = new Random();
